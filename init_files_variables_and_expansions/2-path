@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=$PATH:/root/alu-shell/init_files_variables_and_expansions/action
+PATH=$PATH:/root/alu-shell/init_files_variables_and_expansions/action
