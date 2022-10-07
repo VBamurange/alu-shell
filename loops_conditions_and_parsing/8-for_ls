@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displaying current directory in long format whle using the for loop
+for file in *; do
+echo "$file" | cut -d '-' -f 2;
+done
