@@ -8,5 +8,6 @@ elif [[ $i -eq 8 ]]; then
 echo "good luck"
 else
 echo "Best School"
-fi((i++))
+fi
+((i++))
 done
