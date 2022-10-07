@@ -8,5 +8,5 @@ while [ "$minute" -lt 60 ]; do
 echo "$minute"
 minute=$((minute + 1))
 done
-hour=$((hour + 1))
+hr=$((hr + 1))
 done
