@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#why you no love me
+file=/var/run/myscript.pid
+function finishQuit {
+sudo rm $file
+exit
+}
+function finishTerm{
+echo "I hate the kill command"
+sudo rm $file
+exit}
+trap finishTerm SIGTERM
+trap finishQuit SIGQUIT
+trap "echo 'Y U no love me?!'" SIGINT
+sudo bash -c "echo $$ > $file
+while ((1))
+do
+echo "To infinty and beyond"
+sleep 2
+done
