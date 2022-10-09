@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-why you no love me
+#why you no love me
 file=/var/run/myscript.pid
 function finishQuit {
 sudo rm $file
