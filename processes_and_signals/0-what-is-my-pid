@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# we are finding out our pid
+ps
