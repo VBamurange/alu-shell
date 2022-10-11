@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#manage my process
+echo "I am alive!" /tmp/my_process
+
