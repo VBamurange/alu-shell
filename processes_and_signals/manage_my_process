@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-#tping i am alive indefinitely
-file="/tmp/my_process"
-while true; do
-echo "I am alive!" >> "$file"
+#write indefinitely
+sleep() {
+! read -rt "$1"
+} <> <(:)
+while true
+do
+echo 'I am alive!'
 sleep 2
-done
+done > "${TMPDIR:-/tmp}/my_process"
