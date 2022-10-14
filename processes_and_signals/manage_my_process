@@ -9,4 +9,4 @@ while true
 do
   echo 'I am alive!'
   sleep 2
-done > "${TMPDIR:-/tmp}/my_process
+done > "${TMPDIR:-/tmp}/my_process"
